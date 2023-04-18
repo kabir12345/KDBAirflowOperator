@@ -24,7 +24,8 @@ kdb_operator = KDBOperator(
     command='/path/to/kdb_script.q',
     params={'param1': 'value1', 'param2': 'value2'},
     conn_id='kdb_conn',
-    dag=dag)```
+    dag=dag) 
+ ```
 
 In this example, we create an instance of the KDBOperator and specify the following parameters:
 
