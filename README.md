@@ -7,7 +7,9 @@ Installation
 To use this operator, you must first clone the repository from Github:
 
 
-```python git clone https://github.com/kabir12345/KDBAirflowOperator.git ```
+```python 
+git clone https://github.com/kabir12345/KDBAirflowOperator.git 
+```
 Once you have cloned the repository, you can install the operator and its dependencies by running the following command:
 
 pip install -e KDBAirflowOperator
@@ -37,7 +39,9 @@ dag: the DAG that this operator belongs to
 Once you have created an instance of the KDBOperator, you can add it to your DAG like any other Airflow operator:
 
 
-```python some_other_operator >> kdb_operator >> some_other_operator2```
+```python 
+some_other_operator >> kdb_operator >> some_other_operator2
+```
 
 In this example, we have added the kdb_operator to our DAG and specified that it should be executed after some_other_operator and before some_other_operator2.
 
