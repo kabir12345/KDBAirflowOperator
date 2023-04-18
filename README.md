@@ -12,7 +12,10 @@ git clone https://github.com/kabir12345/KDBAirflowOperator.git
 ```
 Once you have cloned the repository, you can install the operator and its dependencies by running the following command:
 
+```python 
 pip install -e KDBAirflowOperator
+```
+
 This will install the operator in editable mode (-e option), which allows you to make changes to the code and have those changes reflected immediately without the need to reinstall.
 
 
